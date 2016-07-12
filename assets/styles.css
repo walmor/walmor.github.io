@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'FontAwesomeSubSet';
+    src:    url('fonts/FontAwesomeSubSet.eot?5rktd8');
+    src:    url('fonts/FontAwesomeSubSet.eot?5rktd8#iefix') format('embedded-opentype'),
+        url('fonts/FontAwesomeSubSet.ttf?5rktd8') format('truetype'),
+        url('fonts/FontAwesomeSubSet.woff?5rktd8') format('woff'),
+        url('fonts/FontAwesomeSubSet.svg?5rktd8#FontAwesomeSubSet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'FontAwesomeSubSet' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-marker:before {
+    content: "\e900";
+    font-size: 15px;
+    margin-right: 3px;
+}
+.icon-linkedin-square:before {
+    content: "\e901";
+}
+.icon-github:before {
+    content: "\e902";
+}
+.icon-envelope:before {
+    content: "\e903";
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#555;
+}
+
+#top-bkg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    margin-top:-130px;
+    background: #29375e;
+    z-index: -1;
+}
+
+#wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#wrapper::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+
+#content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+#links {
+    margin-top: 80px;
+    font-size: 32px;
+}
+    #links a {
+        color: #898d92;
+        text-decoration: none;
+        margin: 0 20px;
+        -webkit-transition: 0.2s ease;
+        -moz-transition: 0.2s ease;
+        transition: 0.2s ease;
+    }
+
+        #links a:hover {
+            color:#565a5f;
+        }

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'FontAwesomeSubSet';
+    src:    url('fonts/FontAwesomeSubSet.eot?5rktd8');
+    src:    url('fonts/FontAwesomeSubSet.eot?5rktd8#iefix') format('embedded-opentype'),
+        url('fonts/FontAwesomeSubSet.ttf?5rktd8') format('truetype'),
+        url('fonts/FontAwesomeSubSet.woff?5rktd8') format('woff'),
+        url('fonts/FontAwesomeSubSet.svg?5rktd8#FontAwesomeSubSet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'FontAwesomeSubSet' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-marker:before {
+    content: "\e900";
+}
+.icon-linkedin-square:before {
+    content: "\e901";
+}
+.icon-github:before {
+    content: "\e902";
+}
+.icon-envelope:before {
+    content: "\e903";
+}
+
